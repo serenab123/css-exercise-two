@@ -1,7 +1,28 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
 }
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+a {
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/**** Navigation Styles ****/
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -13,14 +34,6 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
 }
 
 .left, .right {
@@ -42,11 +55,40 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
+/**** Header Styles ****/
+
+header {
+  margin: 20px 0;
 }
 
-.container {
-  margin: 0 auto;
-  width: 50%;
+.medium-pic {
+  width: 70%;
+}
+
+figcaption {
+  font-size: .75em;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1.2;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.2
+}
+
+.author {
+  font-size: .75em;
+  line-height: 1.2;
+}
+
+/**** Article Styles ****/
+
+.story-text {
+  line-height: 1.2;
 }
